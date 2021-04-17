@@ -1,0 +1,88 @@
+
+@media screen and (max-width: 1200px) {
+html{
+   width: fit-content;
+   height: fit-content
+}
+   header{
+      display: flex;
+      width: 100%;
+      margin-top:5% ;
+      top: 0px;
+      left: 0px;
+   } 
+   #navBar{
+      margin-top:5% ;
+      align-self: center;
+      margin: auto;
+      top: 0%;
+      left: 0%;
+     
+  }
+
+   
+   .section {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+   }
+   
+   
+   .rightSection {
+      align-content: center;
+      height: 30em;
+      
+   }
+
+   .imgSection{
+      width: 100%;
+      max-width: none;
+   }
+   .imgSection img{
+      width: 100%;
+      height: auto;
+ 
+   }
+   .rightText {
+        top: 0;
+        left: 0px;
+        width: 95%;
+        margin: auto;
+   }
+   footer {
+      height: max-content;
+      flex-direction: column;
+      width: 100%;
+      justify-content: space-between;
+   }
+
+   .footer img{
+     margin: auto;
+     align-self: center
+   };
+   .footerMidle {
+      margin: auto;
+      height: 50%;
+      
+      align-content: center;
+   }
+   
+   .footerMidle h2 {
+      align-self: left;
+
+   }
+   .footerMidle p {
+      display: block;
+      margin-top: 30px;
+
+      width: fit-content;
+   }
+   .footerRight,
+   .footerLeft {
+      display: flex;
+      width: 100%;
+      height: fit-content;
+      justify-content: center;
+   }
+  
+}
